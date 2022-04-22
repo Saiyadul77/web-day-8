@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .photo-frame {
+            width: 300px;
+            height: 150px;
+            border: 3px solid lightgray;
+            border-radius: 10px;
+            position: relative;
+            margin: 5px;
+            overflow: hidden;
+        }
+
+        .photo img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .photo-details {
+            display: none;
+            position: absolute;
+            width: 300px;
+            top: 0px;
+        }
+
+        .photo-details h3 {
+            background-color: black;
+            text-align: center;
+            color: white;
+        }
+
+        .photo-details p {
+            text-align: center;
+            color: white;
+        }
+
+        .photo-frame:hover .photo-details {
+            display: block;
+            background-color: rgba(144, 238, 144, 0.5);
+        }
+
+        .photo-frame:hover .photo {
+            transform: scale(1.5) skew(-30deg);
+            transition: transform 3s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>My awesome photo album</h1>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>My tiger mama</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio sunt doloribus harum error
+                        atque voluptatibus similique, praesentium nostrum in laudantium, eveniet excepturi facere illo
+                        alias
+                        impedit aperiam magni fuga!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>My tiger mama</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio sunt doloribus harum error
+                        atque voluptatibus similique, praesentium nostrum in laudantium, eveniet excepturi facere illo
+                        alias
+                        impedit aperiam magni fuga!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>My tiger mama</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio sunt doloribus harum error
+                        atque voluptatibus similique, praesentium nostrum in laudantium, eveniet excepturi facere illo
+                        alias
+                        impedit aperiam magni fuga!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>My tiger mama</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio sunt doloribus harum error
+                        atque voluptatibus similique, praesentium nostrum in laudantium, eveniet excepturi facere illo
+                        alias
+                        impedit aperiam magni fuga!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>My tiger mama</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio sunt doloribus harum error
+                        atque voluptatibus similique, praesentium nostrum in laudantium, eveniet excepturi facere illo
+                        alias
+                        impedit aperiam magni fuga!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>My tiger mama</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio sunt doloribus harum error
+                        atque voluptatibus similique, praesentium nostrum in laudantium, eveniet excepturi facere illo
+                        alias
+                        impedit aperiam magni fuga!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>My tiger mama</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio sunt doloribus harum error
+                        atque voluptatibus similique, praesentium nostrum in laudantium, eveniet excepturi facere illo
+                        alias
+                        impedit aperiam magni fuga!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>My tiger mama</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio sunt doloribus harum error
+                        atque voluptatibus similique, praesentium nostrum in laudantium, eveniet excepturi facere illo
+                        alias
+                        impedit aperiam magni fuga!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>My tiger mama</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio sunt doloribus harum error
+                        atque voluptatibus similique, praesentium nostrum in laudantium, eveniet excepturi facere illo
+                        alias
+                        impedit aperiam magni fuga!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>My tiger mama</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio sunt doloribus harum error
+                        atque voluptatibus similique, praesentium nostrum in laudantium, eveniet excepturi facere illo
+                        alias
+                        impedit aperiam magni fuga!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>My tiger mama</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio sunt doloribus harum error
+                        atque voluptatibus similique, praesentium nostrum in laudantium, eveniet excepturi facere illo
+                        alias
+                        impedit aperiam magni fuga!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>My tiger mama</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio sunt doloribus harum error
+                        atque voluptatibus similique, praesentium nostrum in laudantium, eveniet excepturi facere illo
+                        alias
+                        impedit aperiam magni fuga!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>My tiger mama</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio sunt doloribus harum error
+                        atque voluptatibus similique, praesentium nostrum in laudantium, eveniet excepturi facere illo
+                        alias
+                        impedit aperiam magni fuga!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>My tiger mama</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio sunt doloribus harum error
+                        atque voluptatibus similique, praesentium nostrum in laudantium, eveniet excepturi facere illo
+                        alias
+                        impedit aperiam magni fuga!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>My tiger mama</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio sunt doloribus harum error
+                        atque voluptatibus similique, praesentium nostrum in laudantium, eveniet excepturi facere illo
+                        alias
+                        impedit aperiam magni fuga!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>My tiger mama</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio sunt doloribus harum error
+                        atque voluptatibus similique, praesentium nostrum in laudantium, eveniet excepturi facere illo
+                        alias
+                        impedit aperiam magni fuga!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
